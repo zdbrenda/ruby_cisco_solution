@@ -84,6 +84,13 @@ I have included a zip file which includes all the files in the repository. You c
 
 A zip file which included all the files (I have pushed the zip file because I was unable to push the super_long.txt file, which is of almost 400 MB).
 
+## Get a word counter for a certain txt file
+You can do as follows to get the desired result:
+1. Put the txt file in the same directory as main.rb.
+2. Create an object by using WordCounter.new (eg: **_wc_abc=WordCounter.new('abc.txt')_** )
+3. Create the counter by calling the count method (eg: **_counter_abc=wc_abc.count_** )
+4. Display the output (eg: **_puts wc_abc.process_output(counter_abc)_**)
+
 ## Running main.rb file 
 
 To run a rb file called **_main.rb_**, open terminal and change the working directory to where the rb file is, run **_ruby main.rb_**. 
