@@ -31,12 +31,14 @@ This is the main ruby file that implements the desired result. There is a WordCo
 
 **_In order to get results for a certain txt file, first put the txt file in the same directory as main.rb._**
 
-I have also added some code to run the class WordCounter, which is included below the WordCounter class.
-
 You can do as follows to get the desired result:
 1. Create an object by using WordCounter.new (eg: **wc_abc=WordCounter.new('abc.txt')** )
 2. Create the counter by calling the count method (eg: **counter_abc=wc_abc.count** )
 3. Display the output (eg: **puts wc_abc.process_output(counter_abc)**)
+
+### demo.rb
+
+A file that calls main.rb to display results.
 
 
 ### test.rb
@@ -84,8 +86,8 @@ I have included a zip file which includes all the files in the repository. You c
 
 A zip file which included all the files (I have pushed the zip file because I was unable to push the super_long.txt file, which is of almost 400 MB).
 
-## Get a word counter for a certain txt file
-You can do as follows to get the desired result:
+## Get a word counter for a certain txt file 
+You can do as follows to get the desired result (which is how **demo.rb** is implemented):
 1. Put the txt file in the same directory as main.rb.
 2. Create an object by using WordCounter.new (eg: **_wc_abc=WordCounter.new('abc.txt')_** )
 3. Create the counter by calling the count method (eg: **_counter_abc=wc_abc.count_** )
