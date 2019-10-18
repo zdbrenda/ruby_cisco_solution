@@ -29,6 +29,8 @@ Two ruby files (main.rb and test.rb) and four txt files (empty.txt, long.txt, ne
 
 This is the main ruby file that implements the desired result. There is a WordCounter class which has an initialize method to initialize the file name, a count method which returns a string if the file name is nil, or the file is empty, or the file name doesn't exits (different string is returned for each case) or returns a Hash in other cases, and a process_output method which returns a string based on what is returned from the count method.
 
+**_In order to get results for a certain txt file, first put the txt file in the same directory as main.rb._**
+
 I have also added some code to run the class WordCounter, which is included below the WordCounter class.
 
 You can do as follows to get the desired result:
@@ -82,9 +84,9 @@ I have included a zip file which includes all the files in the repository. You c
 
 A zip file which included all the files (I have pushed the zip file because I was unable to push the super_long.txt file, which is of almost 400 MB).
 
-## Running the rb file
+## Running main.rb file 
 
-To run a rb file called **_abc.rb_**, open terminal and change the working directory to where the rb file is, run **_ruby abc.rb_**. 
+To run a rb file called **_main.rb_**, open terminal and change the working directory to where the rb file is, run **_ruby main.rb_**. 
 
 ## Running the test file
 
@@ -96,4 +98,5 @@ Due to the limited time frame and the fact that I am still not familiar with Rub
 1. I didn't test the solution against a text file which has multiple words (like this README file that you are reading).
 2. There might be some cases that I didn't cover in the main.rb for the functionality implemented, or some test cases that I ignored.
 3. The running of test.rb takes over 8 minutes (Maybe there is some way to optimize its running time that I am not aware of). 
+4. I didn't include the possibility of setting the txt file in a directory other than where the main.rb file is located.
 
