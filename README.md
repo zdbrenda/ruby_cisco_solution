@@ -36,9 +36,10 @@ You can do as follows to get the desired result:
 2. Create the counter by calling the count method (eg: **counter_abc=wc_abc.count** )
 3. Display the output (eg: **puts wc_abc.process_output(counter_abc)**)
 
+
 ### demo.rb
 
-A file that calls main.rb to display results.
+A  demo file of how to call main.rb to display desired results for a certain txt file.
 
 
 ### test.rb
@@ -92,10 +93,12 @@ You can do as follows to get the desired result (which is how **demo.rb** is imp
 2. Create an object by using WordCounter.new (eg: **_wc_abc=WordCounter.new('abc.txt')_** )
 3. Create the counter by calling the count method (eg: **_counter_abc=wc_abc.count_** )
 4. Display the output (eg: **_puts wc_abc.process_output(counter_abc)_**)
+5. To run the rb file **_demo.rb_**, open terminal and change the working directory to where the rb file is, run **_ruby demo.rb_**. 
+6. You can modify the file name in step **2** to perform the same procedure for another text file.
 
 ## Running main.rb file 
 
-To run a rb file called **_main.rb_**, open terminal and change the working directory to where the rb file is, run **_ruby main.rb_**. 
+
 
 ## Running the test file
 
